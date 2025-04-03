@@ -1,0 +1,27 @@
+{
+  "name": "playlist_app",
+  "version": "1.0.0",
+  "description": "AQA Engineer test assessment - Playlist App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "cy:run": "npx cypress run",
+    "cy:open": "npx cypress open",
+    "lint:fix": "eslint . --fix",
+    "lint": "npx eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BashutskaLiudmyla/Playlist_App.git"
+  },
+  "keywords": [],
+  "author": "Liudmyla Bashutska",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.23.0",
+    "eslint-plugin-cypress": "^4.2.0"
+  }
+}
